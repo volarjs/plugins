@@ -1,0 +1,45 @@
+{
+	"name": "volar-service-biome",
+	"version": "0.0.34",
+	"description": "Integrate Biome into Volar",
+	"homepage": "https://github.com/volarjs/services/tree/master/packages/biome",
+	"bugs": "https://github.com/volarjs/services/issues",
+	"sideEffects": false,
+	"keywords": [
+		"volar-service"
+	],
+	"types": "out/index.d.ts",
+	"license": "MIT",
+	"files": [
+		"**/*.js",
+		"**/*.d.ts"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/volarjs/services.git",
+		"directory": "packages/biome"
+	},
+	"dependencies": {
+		"vscode-uri": "^3.0.8"
+	},
+	"devDependencies": {
+		"@types/node": "latest",
+		"@biomejs/js-api": "^0.5.0"
+	},
+	"peerDependencies": {
+		"@volar/language-service": "~2.1.0",
+		"@biomejs/wasm-web": "^1.7.0",
+		"@biomejs/wasm-nodejs": "^1.7.0"
+	},
+	"peerDependenciesMeta": {
+		"@biomejs/wasm-web": {
+			"optional": true
+		},
+		"@biomejs/wasm-nodejs": {
+			"optional": true
+		},
+		"@volar/language-service": {
+			"optional": true
+		}
+	}
+}

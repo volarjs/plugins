@@ -11,6 +11,7 @@
 		{ "path": "./packages/json/tsconfig.json" },
 		{ "path": "./packages/markdown/tsconfig.json" },
 		{ "path": "./packages/prettier/tsconfig.json" },
+		{ "path": "./packages/biome/tsconfig.json" },
 		{ "path": "./packages/prettyhtml/tsconfig.json" },
 		{ "path": "./packages/pug/tsconfig.json" },
 		{ "path": "./packages/pug-beautify/tsconfig.json" },
