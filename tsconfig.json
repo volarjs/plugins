@@ -17,7 +17,6 @@
 		{ "path": "./packages/sass-formatter/tsconfig.json" },
 		{ "path": "./packages/typescript/tsconfig.json" },
 		{ "path": "./packages/typescript-twoslash-queries/tsconfig.json" },
-		{ "path": "./packages/vetur/tsconfig.json" },
 		{ "path": "./packages/yaml/tsconfig.json" },
 	],
 }
